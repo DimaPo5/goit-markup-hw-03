@@ -10,12 +10,38 @@
   /* колір фону */
   --color-fon: #2f303a;
 }
+
 body {
   background-color: var(--write-color);
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
   letter-spacing: 0.03em;
   font-size: 14px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* Лого */
 .logo {
@@ -49,6 +75,12 @@ body {
 }
 .link.current {
   color: var(--third-color);
+}
+
+.containen {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .nav-contact .link {
