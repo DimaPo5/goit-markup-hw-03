@@ -94,6 +94,28 @@ img {
 .nav-contact .link {
   color: var(--second-color);
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
+.site-navigation {
+  display: flex;
+  gap: 50px;
+  margin-right: 344px;
+}
+.nav-contact {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  margin-right: 93px;
+}
+
 /* riko */
 .hero {
   background-color: var(--color-fon);
