@@ -230,6 +230,8 @@ img {
 }
 .fooret {
   background-color: var(--color-fon);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   color: var(--write-color);
@@ -292,6 +294,9 @@ img {
   background-color: #f5f4fa;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+  border-radius: 4px;
 }
 .site-navigation {
   display: flex;
@@ -319,6 +324,7 @@ img {
   color: var(--second-color);
   text-align: left;
   margin-top: 4px;
+  margin-bottom: 20px;
 }
 .fooret .footer-cont:hover {
   color: var(--third-color);
@@ -332,4 +338,5 @@ img {
   flex-wrap: wrap;
   column-gap: 30px;
   margin-top: 34px;
+  margin-bottom: 94px;
 }
