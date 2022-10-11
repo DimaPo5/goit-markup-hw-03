@@ -32,6 +32,7 @@ ul,
 ol {
   margin: 0;
   padding-left: 0;
+  justify-content: center;
 }
 button {
   cursor: pointer;
@@ -89,6 +90,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 .nav-contact .link {
@@ -96,7 +98,7 @@ img {
 }
 .nav {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 .site-navigation {
   display: flex;
@@ -110,7 +112,7 @@ img {
 }
 .header-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -145,7 +147,13 @@ img {
   color: var(--write-color);
   background-color: var(--third-color);
   cursor: pointer;
-  position: absolute;
+  width: 216px;
+  height: 50.08px;
+  left: 692px;
+  top: 430.58px;
+  border-radius: 4px;
+  margin-top: 30px;
+  border: none;
 }
 .visually-hidden {
   position: absolute;
@@ -163,10 +171,12 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 93px;
 }
 .fiature-text {
   line-height: 1.71;
   color: var(--second-color);
+  margin-top: 10px;
 }
 .figure {
   padding: 0 215px;
@@ -183,22 +193,25 @@ img {
 /* команда розробників*/
 .command {
   background: #f5f4fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .command-item {
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 5px;
-  column-gap: 5px;
+  justify-content: space-between;
+}
+.command-item li {
+  background-color: white;
+  box-shadow: 0px 2px 0px red;
 }
 .section-title {
   font-size: 36px;
-  line-height: 1.16px;
   text-align: center;
   margin-bottom: 50px;
 }
 .case-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .command-name {
   font-weight: 500;
@@ -282,7 +295,6 @@ img {
 }
 .nav-contact {
   display: flex;
-  align-items: center;
 }
 
 .filter-btn:hover {
@@ -294,23 +306,26 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  text-align: left;
+  margin-top: 20px;
 }
 .content-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--second-color);
+  text-align: left;
+  margin-top: 4px;
 }
 .fooret .footer-cont:hover {
   color: var(--third-color);
 }
 .content-filter {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 .content-item {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 30px;
   column-gap: 30px;
+  margin-top: 34px;
 }
