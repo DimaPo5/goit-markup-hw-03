@@ -211,6 +211,10 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.command-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .section {
   padding-top: 94px;
@@ -232,7 +236,6 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-top: 30px;
 }
 .command-position {
   color: var(--second-color);
@@ -248,6 +251,7 @@ img {
 .footer-logo {
   color: var(--write-color);
 }
+
 .footer-address {
   font-style: normal;
   line-height: 1.71;
@@ -294,6 +298,14 @@ img {
   line-height: 1.87;
   color: var(--main-color);
 }
+.adr-container {
+  padding-top: 20px;
+}
+
+.adr-footer {
+  padding-top: 9px;
+}
+
 /* portfolio */
 .filter-btn {
   font-family: inherit;
@@ -309,6 +321,7 @@ img {
   border: none;
   box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
   border-radius: 4px;
+  padding: 6px 25px;
 }
 .btn-current {
   background-color: var(--third-color);
@@ -332,15 +345,12 @@ img {
   letter-spacing: 0.06em;
   color: var(--main-color);
   text-align: left;
-  margin-top: 20px;
 }
 .content-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--second-color);
   text-align: left;
-  margin-top: 4px;
-  margin-bottom: 20px;
 }
 .fooret .footer-cont:hover {
   color: var(--third-color);
@@ -352,6 +362,13 @@ img {
 .content-item {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
+  justify-content: space-between;
   margin-top: 34px;
+}
+.content-wrap {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.project-items {
+  border: 1px solid #eeeeee;
 }
