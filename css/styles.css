@@ -39,6 +39,7 @@ ol {
 }
 p,
 ul,
+ol,
 li {
   margin-left: 0;
   padding-left: 0;
